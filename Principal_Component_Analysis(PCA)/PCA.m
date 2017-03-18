@@ -1,3 +1,6 @@
+%Author: Lalit Singh
+%Jacobs University
+%l.singh@jacobs-university.de
 %% The raw 200 samples of particular digit out of 2000 data samples is loaded in a matrix called digits
 clear
 clc

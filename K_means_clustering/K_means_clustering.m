@@ -1,3 +1,6 @@
+%Author: Lalit Singh
+%Jacobs University
+%l.singh@jacobs-university.de
 addpath(genpath('.'));
 load mfeat-pix.txt -ascii
 size(mfeat_pix);
