@@ -3,7 +3,7 @@ extracted by projecting the centred data points on PCAs. The program calculates
 the value of k i.e number of PCAs that needs to be considered in ordered to get
 x% of original date. ![alt
 tag](https://github.com/aerolalit/Machine-Learning/blob/master/Principal_Component_Analysis(PCA)/images/100_k%3D240.png)
-For 100%, k = 240 out of 240 ![alt
+For 100%, k = 199 out of 240 ![alt
 tag](https://github.com/aerolalit/Machine-Learning/blob/master/Principal_Component_Analysis(PCA)/images/99.9_k%3D58.png)
 For 99.9% k = 58 out of 240 PCAs needs to be considered ![alt
 tag](https://github.com/aerolalit/Machine-Learning/blob/master/Principal_Component_Analysis(PCA)/images/99_k%3D23.png)
