@@ -84,4 +84,4 @@ end
 legend('testing set of images','training set of images')
 xlabel('no of feature vectors considered (m)')
 ylabel('Total number of missclassifications')
-
+title('plot of training and testing misclassification')
