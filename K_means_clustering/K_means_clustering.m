@@ -40,7 +40,7 @@ loopcount = 1; % number of times that the while loop runs to converge
 convergence = false;
 while(convergence == false)
     loopcount = loopcount +1;
-    diff = zeros(K,240); % make matrix of zeros because prof. pathak likes zeros and he is legend
+    diff = zeros(K,240); % 
     count = zeros(K,1); % counts the number of elements in particular clustering
     for i = 1:n
         diff(cluster(i,1), :) = diff(cluster(i,1),:) + digits(i,:) - centroid(cluster(i,1),:);
