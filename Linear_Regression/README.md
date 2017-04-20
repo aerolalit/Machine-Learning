@@ -7,4 +7,4 @@ Observation
 *	For training set of images, the number of missclassifications (indicated by small red circles in graph below,) decreases with the increase of number of feature vectors taken into account.
 *	However, for testing set of images, the number of missclassification (indicated by small blue circles in graph below,) decreases first and then later it increseas  with the increase in the number of feature vectors taken into account. \\
 `The number of missclassification rate is minimum for m ≈ 50.`
-![alt text](https://github.com/aerolalit/Machine-Learning/blob/master/Misclassifications/Graph.png)
+![alt text](https://github.com/aerolalit/Machine-Learning/blob/master/Linear_Regression/Graph.png)
