@@ -228,3 +228,4 @@ for i = 1:1000
     end
 end
 miss_count_test
+fprintf('Average  percentage of misscalassification on testing set =    %d percent\n', miss_count_test/10);
