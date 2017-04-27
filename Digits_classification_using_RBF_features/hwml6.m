@@ -28,9 +28,9 @@ test_digits = Test_vectors - repmat(mean_train,1000,1);   % note that we are cen
 %% Initializing cross-validation and Tunable Parameters
 factor = 5 % division factor for dividing the data set into trainging and validation set
 %syms alpha beta K;
-steps  = 20;
+steps  = 6; % increase the value of step to make the graphs more finer
 %Tuning_parameters = [alpha; beta; K];
-K =560; % number of clusters for k means clustering
+K =300; % number of clusters for k means clustering
 K_ul = 800; K_ll = 200; % upper and lower limits for K
 beta = 2750; % 500 - 4000
 alpha = 0.0500; % 0.08 to 0.16 or 0.12
