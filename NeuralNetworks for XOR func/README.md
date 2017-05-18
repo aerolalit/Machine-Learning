@@ -1,0 +1,1 @@
+Training MLPs for XOR function with Single Hidden Layer using BackPropagation=========================================================================[View the Documentation Here](https://github.com/aerolalit/Machine-Learning/blob/master/NeuralNetworks%20for%20XOR%20func/Documentation/README.pdf)
