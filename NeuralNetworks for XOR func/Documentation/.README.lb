@@ -33,7 +33,7 @@ aVfp
 p16
 aVcourier
 p17
-aVhyperref
+aVtgheros
 p18
 aVlastpage
 p19
@@ -41,7 +41,7 @@ aVxparse
 p20
 aVxstring
 p21
-aVtgheros
+aVhyperref
 p22
 aVtikz
 p23
