@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.3.24)  18 MAY 2017 14:50
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.3.24)  18 MAY 2017 14:52
  restricted system commands enabled.
  file:line:error style messages enabled.
 **README.tex
@@ -985,27 +985,27 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 (./README.aux)
 \openout1 = README.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 106.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 104.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Try loading font information for T1+qhv on input line 106.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Try loading font information for T1+qhv on input line 104.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
@@ -1043,7 +1043,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ABD: EveryShipout initializing macros
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 106.
+(lastpage)             ! on input line 104.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1080,7 +1080,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box84
-Package hyperref Info: Link coloring OFF on input line 106.
+Package hyperref Info: Link coloring OFF on input line 104.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1089,9 +1089,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count199
 )
-LaTeX Info: Redefining \ref on input line 106.
-LaTeX Info: Redefining \pageref on input line 106.
-LaTeX Info: Redefining \nameref on input line 106.
+LaTeX Info: Redefining \ref on input line 104.
+LaTeX Info: Redefining \pageref on input line 104.
+LaTeX Info: Redefining \nameref on input line 104.
 
 (./README.out) (./README.out)
 \@outlinefile=\write5
@@ -1101,36 +1101,36 @@ LaTeX Info: Redefining \nameref on input line 106.
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ca with sig. 's m' on line 125.
+. Defining command \ca with sig. 's m' on line 123.
 .................................................
-LaTeX Font Info:    Try loading font information for U+msa on input line 128.
+LaTeX Font Info:    Try loading font information for U+msa on input line 126.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 128.
+LaTeX Font Info:    Try loading font information for U+msb on input line 126.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 169--171
+Underfull \hbox (badness 10000) in paragraph at lines 167--169
 
  []
 
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 223--226
+Underfull \hbox (badness 10000) in paragraph at lines 221--224
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--238
+Underfull \hbox (badness 10000) in paragraph at lines 233--236
 
  []
 
 [2]
-Overfull \hbox (53.20088pt too wide) detected at line 376
+Overfull \hbox (53.20088pt too wide) detected at line 374
 [][] \OT1/cmr/m/n/12 = [][] \OMS/cmsy/m/n/12   \OML/cmm/m/it/12  \OMS/cmsy/m/n
 /12  []
  []
@@ -1138,32 +1138,32 @@ Overfull \hbox (53.20088pt too wide) detected at line 376
 [3] <Graph.png, id=64, 1364.09625pt x 868.24374pt>
 File: Graph.png Graphic file (type png)
  <use Graph.png>
-Package luatex.def Info: Graph.png used on input line 412.
+Package luatex.def Info: Graph.png used on input line 410.
 (luatex.def)             Requested size: 426.79134pt x 271.65671pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 409--416
+Underfull \hbox (badness 10000) in paragraph at lines 407--414
 
  []
 
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 453.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 451.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Overfull \hbox (2.7747pt too wide) in paragraph at lines 450--454
+Overfull \hbox (2.7747pt too wide) in paragraph at lines 448--452
 []\T1/pcr/m/n/12 http://minds.jacobs-university.de/sites/default/files/uploads
  []
 
 
 AED: lastpage setting LastPage
 [4<./Graph.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 455.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 455.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 453.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 453.
  (./README.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 455.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 455.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 453.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 453.
 Package rerunfilecheck Info: File `README.out' has not changed.
 (rerunfilecheck)             Checksum: 670799A5D071A2B49232BB4D9132D37A;133.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 455.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 453.
 )
 
 Here is how much of LuaTeX's memory you used:
