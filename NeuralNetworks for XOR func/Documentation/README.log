@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.3.24)  19 MAY 2017 15:31
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.3.24)  21 MAY 2017 12:00
  restricted system commands enabled.
  file:line:error style messages enabled.
 **README.tex
@@ -1120,17 +1120,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--169
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 224--227
+Underfull \hbox (badness 10000) in paragraph at lines 221--225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--239
+Underfull \hbox (badness 10000) in paragraph at lines 234--237
 
  []
 
 [2]
-Overfull \hbox (53.20088pt too wide) detected at line 377
+Overfull \hbox (53.20088pt too wide) detected at line 375
 [][] \OT1/cmr/m/n/12 = [][] \OMS/cmsy/m/n/12   \OML/cmm/m/it/12  \OMS/cmsy/m/n
 /12  []
  []
@@ -1138,39 +1138,39 @@ Overfull \hbox (53.20088pt too wide) detected at line 377
 [3] <Graph.png, id=64, 1364.09625pt x 868.24374pt>
 File: Graph.png Graphic file (type png)
  <use Graph.png>
-Package luatex.def Info: Graph.png used on input line 413.
+Package luatex.def Info: Graph.png used on input line 411.
 (luatex.def)             Requested size: 426.79134pt x 271.65671pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--417
+Underfull \hbox (badness 10000) in paragraph at lines 408--415
 
  []
 
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 454.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 452.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Overfull \hbox (2.7747pt too wide) in paragraph at lines 451--455
+Overfull \hbox (2.7747pt too wide) in paragraph at lines 449--453
 []\T1/pcr/m/n/12 http://minds.jacobs-university.de/sites/default/files/uploads
  []
 
 
 AED: lastpage setting LastPage
 [4<./Graph.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 456.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 456.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 454.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 454.
  (./README.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 456.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 456.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 454.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 454.
 Package rerunfilecheck Info: File `README.out' has not changed.
 (rerunfilecheck)             Checksum: 670799A5D071A2B49232BB4D9132D37A;133.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 456.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 454.
 )
 
 Here is how much of LuaTeX's memory you used:
  27193 strings out of 495119
  100000,662416 words of node,token memory allocated
- 1528 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 157 glue, 1 kern, 52 glue_spec, 2 write, 1 pdf_acti
+ 1521 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 156 glue, 1 kern, 52 glue_spec, 2 write, 1 pdf_acti
 on nodes
    avail lists: 2:20,3:452,4:25,5:313,6:1491,7:1319,8:86,9:945,10:8,11:63
  29767 multiletter control sequences out of 65536+600000
@@ -1194,7 +1194,7 @@ cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qhv
 b.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qhvri.pfb></usr/l
 ocal/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on README.pdf (4 pages, 266199 bytes).
+Output written on README.pdf (4 pages, 266018 bytes).
 
 PDF statistics: 136 PDF objects out of 1000 (max. 8388607)
  110 compressed objects within 2 object streams
