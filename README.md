@@ -1,6 +1,6 @@
 # Machine-Learning 
 This repository contains some of the machine learning scripts that I have
-implemented as a part of current coursework.
+implemented as a part of Machine Learning coursework.
 
 *    [Training MLPs for XOR function with Single Hidden Layer using BackPropagation](https://github.com/aerolalit/Machine-Learning/tree/master/NeuralNetworks%20for%20XOR%20func)
 
