@@ -11,3 +11,5 @@ implemented as a part of Machine Learning coursework.
 *	[Linear Regresstion](https://github.com/aerolalit/Machine-Learning/tree/master/Linear_Regression)
 
 *	[Principal Component Analysis (PCA)](https://github.com/aerolalit/Machine-Learning/tree/master/Principal_Component_Analysis(PCA))
+
+*	[Linear_Discriminant_Analysis(LDA)](https://github.com/aerolalit/Machine-Learning/tree/master/Linear_Discriminant_Analysis(LDA))
