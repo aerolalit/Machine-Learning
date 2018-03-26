@@ -8,7 +8,7 @@ LDA can used for feature extraction (using dimension reduction), since LDA is su
 
 **When to use the LDA?**
 
-**For feature extraction of the classification**, you should have a large and representative (small dataset that accurately represents the larger data set) data set. If the data set is not representative and has not enough data points. LDA will not generalize well and the projection of the tests data will be not optimal, even though train data separated well. 
+**For feature extraction of the classification**, you should have a large and representative (small dataset that accurately represents the larger data set) data set. If the data set is not representative and has not enough data points. LDA will not generalize well and the projection of the tests data will be not optimal, even though train data separated well. For further information visit [here](http://ieeexplore.ieee.org/xpls/icp.jsp?arnumber=908974)
 
 **For visualization** LDA can be used all the time. 
 
