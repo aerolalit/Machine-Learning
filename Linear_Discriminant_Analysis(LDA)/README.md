@@ -2,7 +2,7 @@
 
 LDA is a dimension reduction technique that maximize the variance between classes while minimizing the variance in the classes. Which means, data points in same classes will be close to each other while data points from different classes will be far away from each other.
 
-**Why you should LDA?**
+**Why you should use LDA?**
 
 LDA can used for feature extraction (using dimension reduction), since LDA is supervised algorithm, it can do classification as well and LDA can be used for data visualization.
 
