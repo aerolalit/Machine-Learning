@@ -1,0 +1,52 @@
+\documentclass{article}
+\usepackage[a4paper,top=20mm,bottom=20mm, lmargin = 40mm, rmargin = 40mm]{geometry} %For structue of the page %
+
+\usepackage{relsize} % For resize math formulas
+\usepackage{hyperref}  % For links
+\hypersetup{colorlinks=true, urlcolor=blue}
+
+% My math symbols
+\usepackage{amsmath} 
+\DeclareMathOperator*{\argmax}{argmax}
+\DeclareMathOperator*{\argmin}{argmin}
+\DeclareMathOperator*{\hmu}{\hat{\mu}}
+\DeclareMathOperator*{\dL}{\Delta L}
+\DeclareMathOperator*{\lagrange}{\mathcal{L}}
+
+
+% For spacing between lines
+\usepackage{leading}
+\leading{26pt}
+
+\begin{document}
+
+\section*{Important Values}
+
+$l_i$ number of data points in class i \\
+$l = \sum_{i=1}^{c} l_i$ total amount of data points\\
+$\mu_i = \frac{1}{l_i} \sum_{j=1}^{l_i} x_{ij}$ mean of class i\\
+$\hmu = \frac{1}{l} \sum_{i = 1}^{c} l_i * \mu_i $ mean data point\\
+$ \dL =  [(\mu_1 - \hmu) | ... | (\mu_c - \hmu)] $ centralize the means\\
+$L_i = [(x_{i1} - \mu_i) | ... | (x_{il_i} - \mu_i)]$ centralize the data in class i\\
+$L = [L_1 | ... | L_c]$ {\bfseries{ Note:}} $rank(L) = l - c$ \& $rank(\dL) = c - 1$\\
+{\bfseries {Main Values: }}\\
+$S_B = \dL * \dL^T$  scatter (variance) between the classes\\
+$S_W =  L *  L^T$ scatter (variance) in the calsses 
+
+
+\section*{Finding Projection Vectors}
+We need to solve $\mathlarger{\argmax_u \frac{u^T S_B u}{u^T S_W u}}$ where $u$ is the projection vector ({\bfseries{Note:}} $u$ is an unit vector).
+This is equivalent to solving $\mathlarger{\argmax u^T S_B u}$ and $\mathlarger{\argmin_u u^T S_W u}$.
+Let assume, we solved $ u^T S_W u$ and it is equivalent to $\kappa$ ({\bfseries{Note:}} we don't know the $u$).
+Now, we can solve $u^T S_B u$ with a given constraint $ u^T S_W u = \kappa$.\\
+{\bfseries{Using \href{https://en.wikipedia.org/wiki/Lagrange_multiplier}{Lagrange Multiplier}:}}\\
+$\lagrange = u^T S_B u + \lambda (u^T S_W u - \kappa) $\\
+$\mathlarger{\frac{d\lagrange}{du}} = 0 = S_Bu + (u^TS_B)^T-  \lambda(S_Wu + (u^TS_W)^T)$\\
+$\mathlarger{\frac{d\lagrange}{du}} = 0 = 2S_Bu -  \lambda(2S_Wu) \Rightarrow S_B u = \lambda S_W u$, {\bfseries{ Note:}} $S_B$ \& $S_W$ are symetric.\\
+{\bfseries{Note:}} We will find the "optimal solution" because our objective function (the thing we are tring to optimize) and constraint are convex functions which means, we are doing \href{https://en.wikipedia.org/wiki/Convex_optimization}{Convex Optimization}.\\
+Back to our first optimization problem, since we know $S_B u = \lambda S_W u$, we can re-write it as $\mathlarger{max \frac{\lambda u^T S_W u}{u^T S_W u}}$, since we assume $ u^T S_W u = \kappa$, we can subtitute it in and get $\mathlarger{max \frac{\lambda \kappa}{\kappa}} = \lambda$. As we can see, the answer is independent from $\kappa$ which means, we don't need to find $\kappa$ to solve the problem. We can see, vector $u$ and $\lambda$ are the eigen pairs of the $S_W^{-1} S_B$. But there is a problem, $S_W$ is not full rank, so the inverse doesn't exist however, we can do some numerical tricks.\\
+$S_W = U \Sigma V^T$, the \href{https://en.wikipedia.org/wiki/Singular-value_decomposition}{SVD decomposition} of $S_W$. Using SVD, we can "find inverse" of $S_W$, we know that $U$ and $V^T$ inverse exist because they are \href{https://en.wikipedia.org/wiki/Unitary_matrix}{unitary matrixes} (special matrixes). To find the inverse of $\Sigma$ we do, if $\Sigma(i,i) = 0$ then $\Sigma^\dagger(i,i) = 0$ else $\Sigma^\dagger(i,i) = \mathlarger{\frac{1}{\Sigma(i,i)}}$. {\bfseries{Note:}} $\Sigma$ is diagonal matrix (only the diagonal part contains non-zero values). The $\dagger$ symbol means the \href{https://en.wikipedia.org/wiki/Moore}{pseudo inverse} ( estimating the inverse of a given matrix). Now, we can write pseudo inverse of $S_W$, $S_W^\dagger = V \Sigma^\dagger U^T$.\\
+Let we call $W = S_W^\dagger S_B$, the top "n" (value n is given by user) biggest eigen values corresponding eigen vectors will be the our projection vector. {\bfseries{Remember}} we said $\mathlarger{max \frac{u^T S_B u}{u^T S_W u}} = \lambda$ and vector $u$ and $\lambda$ are the eigen pairs of the $S_W^{-1} S_B$. {\bfseries{Note:}} We can only pick top $c-1$ eigen vector, because  rank($S_B$) is $c-1$ (bottleneck), because $c-1 < l-c$, $l$ is much greater than $c$.
+
+
+\end{document}
