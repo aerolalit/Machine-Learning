@@ -10,8 +10,8 @@ implemented as a part of Machine Learning coursework.
 
 *	[Linear Regresstion](https://github.com/aerolalit/Machine-Learning/tree/master/Linear_Regression)
 
-*	[Principal Component Analysis (PCA)](https://github.com/aerolalit/Machine-Learning/tree/master/Principal_Component_Analysis(PCA))
+*	[Principal Component Analysis (PCA)](https://github.com/aerolalit/Machine-Learning/tree/master/Principal_Component_Analysis)
 
-*	[Linear Discriminant Analysis (LDA)](https://github.com/aerolalit/Machine-Learning/tree/master/Linear_Discriminant_Analysis(LDA))
+*	[Linear Discriminant Analysis (LDA)](https://github.com/aerolalit/Machine-Learning/tree/master/Linear_Discriminant_Analysis)
 
 * [Logistic Regression](https://github.com/aerolalit/Machine-Learning/tree/master/Logistic_Regression)
