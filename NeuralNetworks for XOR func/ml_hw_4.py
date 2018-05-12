@@ -40,7 +40,7 @@ for i in range(n_epoch):
     
     """
     Backward-Pass:
-    NOTE : out weight matrix index start from 1, so the layer
+    NOTE : out weight matrix index start from 1
         1 - compute the derivative of the cost respect to next layer input, d(loss)/d(a_i)
         2 - compute the derivative of the next layer input respect to previous layers weight matrix, d(a_i)/d(w_i) 
         3 - multiply the result of 1 and 2, d(loss)/d(a_i) * d(a_i)/d(w_i) = d(loss)/d(w_i)
